@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #cac9c9;
+}
+
+.venting-cal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.venting-cal-wrapper {
+    width: 50%;
+    max-width: 600px;
+    box-shadow: 0px 4px 9px #0000002e;
+    padding: 20px 0 40px 0;
+}
+
+#type-of-venting-container,
+#gable-container,
+#dormer-container,
+#eave-container,
+#ridge-container,
+#soffit-container,
+#ohagin-container,
+#turbine-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#gable-container>img,
+#dormer-container>img,
+#eave-container>img,
+#ridge-container>img {
+    width: 50%;
+}
+
+#gable-container,
+#dormer-container,
+#eave-container,
+#ridge-container,
+#soffit-container,
+#ohagin-container,
+#turbine-container {
+    display: none;
+}
+
+.type-of-venting-title,
+.gable-title,
+.dormer-title,
+.eave-title,
+.ridge-title,
+.soffit-title,
+.ohagin-title,
+.turbine-title {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #373737;
+}
+
+#gable-cal-btn-container,
+#dormer-cal-btn-container,
+#eave-cal-btn-container,
+#ridge-cal-btn-container,
+#soffit-cal-btn-container,
+#ohagin-cal-btn-container,
+#turbine-cal-btn-container {
+    width: 50%;
+    text-align: center;
+}
+
+#gable-cal-btn,
+#dormer-cal-btn,
+#eave-cal-btn,
+#ridge-cal-btn,
+#soffit-cal-btn,
+#ohagin-cal-btn,
+#turbine-cal-btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #ea2329;
+    padding: 20px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1.2em;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#gable-cal-btn:hover,
+#dormer-cal-btn:hover,
+#eave-cal-btn:hover,
+#ridge-cal-btn:hover,
+#soffit-cal-btn:hover,
+#ohagin-cal-btn:hover,
+#turbine-cal-btn:hover {
+    background-color: #c01a20;
+}
+
+#venting-area-results-container {
+    display: none;
+    width: 80%;
+    padding: 20px 0;
+    margin: 20px auto 0 auto;
+    background-color: rgb(140 211 255);
+}
+
+#venting-area-results-title {
+    text-align: center;
+    color: #373737;
+    font-weight: 400;
+    font-size: 1.2em;
+}

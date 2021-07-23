@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venting Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="venting-cal-container">
+        <div class="venting-cal-wrapper">
+
+            <div id="type-of-venting-container">
+                <h2 class="type-of-venting-title">Type Of Venting</h2>
+                <select name="" id="typeOfVentingData" onchange="typeOfVentingChoice()"></select>
+            </div>
+
+            <div id="gable-container">
+                <img src="imgs/designer-round-gable-vents.png" alt="This image is the gable" srcset="">
+                <h2 class="gable-title">Gable</h2>
+                <select name="" id="gableData"></select>
+                <select name="" id="gableNumberData"></select>
+                <div id="gable-cal-btn-container">
+                    <a href="javascript:void(0)" id="gable-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="dormer-container">
+                <img src="imgs/half-round-louvered-dormer-vent-2_1.png" alt="This image is the gable" srcset="">
+                <h2 class="dormer-title">Dormer</h2>
+                <select name="" id="dormerData"></select>
+                <select name="" id="dormerNumberData"></select>
+                <div id="dormer-cal-btn-container">
+                    <a href="" id="dormer-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="eave-container">
+                <img src="imgs/Eave.png" alt="This image is the gable" srcset="">
+                <h2 class="eave-title">Eave</h2>
+                <select name="" id="eaveData"></select>
+                <select name="" id="eaveNumberData"></select>
+                <div id="eave-cal-btn-container">
+                    <a href="" id="eave-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="ridge-container">
+                <img src="imgs/Ridge.png" alt="This image is the gable" srcset="">
+                <h2 class="ridge-title">Ridge</h2>
+                <select name="" id="ridgeData"></select>
+                <select name="" id="ridgeNumberData"></select>
+                <div id="ridge-cal-btn-container">
+                    <a href="" id="ridge-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="soffit-container">
+                <img src="imgs/soffit.png" alt="This image is the gable" srcset="">
+                <h2 class="soffit-title">SofFit</h2>
+                <select name="" id="soffitData"></select>
+                <select name="" id="soffitNumberData"></select>
+                <div id="soffit-cal-btn-container">
+                    <a href="" id="soffit-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="ohagin-container">
+                <h2 class="ohagin-title">O'Hagin</h2>
+                <select name="" id="ohaginData"></select>
+                <select name="" id="ohaginNumberData"></select>
+                <div id="ohagin-cal-btn-container">
+                    <a href="" id="ohagin-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="turbine-container">
+                <h2 class="turbine-title">Turbine</h2>
+                <select name="" id="turbineData"></select>
+                <select name="" id="turbineNumberData"></select>
+                <div id="turbine-cal-btn-container">
+                    <a href="" id="turbine-cal-btn">Calculate Venting</a>
+                </div>
+            </div>
+
+            <div id="venting-area-results-container">
+                <!-- <p></p> -->
+                <h2 id="venting-area-results-title"></h2>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

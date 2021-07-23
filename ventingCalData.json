@@ -1,0 +1,513 @@
+{
+    "ventingTypes": [{
+
+            "id": "1",
+            "name": "Gable"
+        },
+        {
+            "id": "2",
+            "name": "Dormer"
+        },
+        {
+            "id": "3",
+            "name": "Eave"
+        },
+        {
+            "id": "4",
+            "name": "Ridge"
+        },
+        {
+            "id": "4",
+            "name": "SofFit"
+        },
+        {
+            "id": "5",
+            "name": "O'Hagin"
+        },
+        {
+            "id": "6",
+            "name": "Turbine"
+        }
+    ],
+
+
+
+    "gable": [{
+
+            "id": "1",
+            "measurement": "12x18",
+            "value": 216
+        },
+        {
+            "id": "2",
+            "measurement": "12x20",
+            "value": 240
+        },
+        {
+            "id": "3",
+            "measurement": "12x12",
+            "value": 144
+        },
+        {
+            "id": "4",
+            "measurement": "14x14",
+            "value": 196
+        },
+        {
+            "id": "4",
+            "measurement": "18x24",
+            "value": 432
+        }
+    ],
+
+    "gableAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 1
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ],
+
+    "dormer": [{
+
+        "id": "1",
+        "measurement": "14x8",
+        "value": 112
+    }],
+
+    "dormerAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 2
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ],
+
+    "eave": [{
+
+            "id": "1",
+            "measurement": "5-inches",
+            "value": 5
+        },
+        {
+            "id": "2",
+            "measurement": "4-inches",
+            "value": 4
+        },
+        {
+            "id": "3",
+            "measurement": "6-inches",
+            "value": 6
+        }
+    ],
+
+    "eaveAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 2
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ],
+
+    "ridge": [{
+
+        "id": "1",
+        "measurement": "12x18",
+        "value": 216
+    }],
+
+    "ridgeAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 2
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ],
+
+    "soffit": [{
+
+            "id": "1",
+            "measurement": "5-inches",
+            "value": 5
+        },
+        {
+            "id": "2",
+            "measurement": "4-inches",
+            "value": 4
+        },
+        {
+            "id": "3",
+            "measurement": "6-inches",
+            "value": 6
+        }
+    ],
+
+    "soffitAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 2
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ],
+
+    "ohagin": [{
+
+            "id": "1",
+            "profile": "Low/Med Profile"
+        },
+        {
+            "id": "2",
+            "profile": "Taper Low Profile"
+        },
+        {
+            "id": "3",
+            "profile": "Low Profile Flat"
+        },
+        {
+            "id": "4",
+            "profile": "High Profile"
+        }
+    ],
+
+    "ohaginAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 2
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ],
+
+    "turbine": [{
+
+            "id": "1",
+            "measurement": "5-inches",
+            "value": 5
+        },
+        {
+            "id": "2",
+            "measurement": "4-inches",
+            "value": 4
+        },
+        {
+            "id": "3",
+            "measurement": "6-inches",
+            "value": 6
+        }
+    ],
+
+    "turbineAmount": [{
+            "id": "1",
+            "number": "1",
+            "value": 1
+        },
+        {
+            "id": "2",
+            "number": "2",
+            "value": 2
+        },
+        {
+            "id": "3",
+            "number": "3",
+            "value": 3
+        },
+        {
+            "id": "4",
+            "number": "4",
+            "value": 4
+        },
+        {
+            "id": "5",
+            "number": "5",
+            "value": 5
+        },
+        {
+            "id": "6",
+            "number": "6",
+            "value": 6
+        },
+        {
+            "id": "7",
+            "number": "7",
+            "value": 7
+        },
+        {
+            "id": "8",
+            "number": "8",
+            "value": 8
+        },
+        {
+            "id": "9",
+            "number": "9",
+            "value": 9
+        },
+        {
+            "id": "10",
+            "number": "10",
+            "value": 10
+        }
+    ]
+}
