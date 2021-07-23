@@ -50,7 +50,8 @@ select {
 #gable-container>img,
 #dormer-container>img,
 #eave-container>img,
-#ridge-container>img {
+#ridge-container>img,
+#turbine-container>img {
     width: 50%;
 }
 

@@ -373,19 +373,23 @@
     "ohagin": [{
 
             "id": "1",
-            "profile": "Low/Med Profile"
+            "profile": "Low/Med Profile",
+            "value": 25
         },
         {
             "id": "2",
-            "profile": "Taper Low Profile"
+            "profile": "Taper Low Profile",
+            "value": 30
         },
         {
             "id": "3",
-            "profile": "Low Profile Flat"
+            "profile": "Low Profile Flat",
+            "value": 35
         },
         {
             "id": "4",
-            "profile": "High Profile"
+            "profile": "High Profile",
+            "value": 40
         }
     ],
 
